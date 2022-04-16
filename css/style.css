@@ -1,0 +1,203 @@
+* {
+  color: #000000;
+  font-family: "Roboto", arial, sans-serif;
+}
+
+/* html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+  }
+ 
+*,*::before, *::after{
+  box-sizing: inherit;
+} */
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5f6368;
+  text-decoration: underline;
+}
+
+/* NAVEGACION SUPERIOR */
+.nav {
+  height: 75px;
+}
+
+.nav-1 {
+  display: inline-block;
+  margin: 2px;
+  float: right; /* PROBLEMA */
+  font-size: 13.5px;
+}
+
+.nav-1 div {
+  display: inline-flex;
+  margin: 0px 5px 0px 0px;
+  padding: 0px 2px 0px 0px;
+  vertical-align: middle;
+}
+
+/* GMAIL */
+.nav-a span {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* IMAGENES */
+.nav-b span {
+  margin: 5px;
+  padding: 5px;
+  /*position: relative;
+    align-content: center;*/
+}
+
+/* APPS */
+
+/* .apps {
+  background-color: darkorchid;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 23px;
+  width: 23px;
+} */
+.apps {
+  height: 23px;
+  width: 23px;
+}
+
+.apps:hover {
+  background-color: rgba(235, 235, 235, 2);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+/* ACCEDER */
+.nav-c button {
+  background-color: #5094ed;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  color: #ffffff;
+  font-size: 14px;
+  margin: 17px 6px;
+  padding: 8px 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.main {
+  height: 364px;
+  margin-top: 80px;
+}
+
+/* LOGO GOOGLE */
+.logo {
+  text-align: center;
+}
+
+/* CAJA DE BUSQUEDA (INPUT) */
+.main input {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: block;
+  font-size: 16px;
+  height: 30px;
+  margin: 20px auto;
+  padding: 8px;
+  width: 600px;
+}
+
+/* SOMBRA CAJA DE BUSQUEDA (INPUT) */
+.main input:hover {
+  -webkit-box-shadow: 1px 2px 8px 0px rgba(143, 139, 143, 0.5);
+  -moz-box-shadow: 1px 2px 8px 0px rgba(143, 139, 143, 0.5);
+  box-shadow: 1px 2px 8px 0px rgba(143, 139, 143, 0.5);
+}
+
+/* .input-icon {
+  background-image: url("images/lupa.png");
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+} */
+
+/* BOTONES DE BUSQUEDA */
+.search {
+  text-align: center;
+}
+
+.search button {
+  background-color: rgb(245, 245, 245);
+  border: 0px solid;
+  border-radius: 5px;
+  width: 180px;
+  height: 35px;
+  font-size: 14px;
+  margin: 17px 6px;
+  padding: 8px 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.search button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* FOOTER */
+.footer {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  bottom: 0;
+  font-size: 14px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  font-size: 13.5px;
+}
+
+/* DIV COMPLETO */
+.footer div {
+  display: inline-flex;
+  position: relative;
+  margin: 2px;
+  width: auto;
+}
+
+/* DIV LEFT */
+.footer .left {
+  float: left;
+  padding-left: 10px;
+}
+
+/* DIV RIGHT */
+.footer .right {
+  float: right;
+  padding-right: 10px;
+}
+
+/* SPAN */
+.footer div span {
+  padding: 10px;
+  margin: 5px;
+}
+
+/*
+.left span {
+  float: left;
+}
+
+.right span {
+  float: right;
+}*/
